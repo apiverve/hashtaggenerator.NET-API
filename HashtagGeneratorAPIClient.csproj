@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.HashtagGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/hashtaggenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Hashtag Generator is a simple tool for generating hashtags. It returns a list of hashtags based on the text provided.</Description>
+    <RepositoryUrl>https://github.com/apiverve/hashtaggenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>hashtag generator; hashtag generator api; hashtag generator tool; hashtag generator software; hashtag generator service; hashtag generator library; hashtag generator sdk; hashtag generator code; hashtag generator script; hashtag generator program; hashtag generator application; hashtag generator app; hashtag generator utility; hashtag generator helper; hashtag generator helper tool; hashtag generator helper software; hashtag generator helper service; hashtag generator helper library; hashtag generator helper sdk; hashtag generator helper code; hashtag generator helper script; hashtag generator helper program; hashtag generator helper application; hashtag generator helper app; hashtag generator helper utility; hashtag generator helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

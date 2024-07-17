@@ -6,9 +6,6 @@ namespace APIVerve
 {
 public class data
 {
-    [JsonProperty("text")]
-    public string text { get; set; }
-
     [JsonProperty("count")]
     public int count { get; set; }
 

@@ -5,6 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class HashtagGeneratorQueryOptions {
-public string text { get; set; }
+public string Text { get; set; }
+public int Count { get; set; }
 }
 }
